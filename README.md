@@ -8,8 +8,8 @@ Súbor Predspracovanie_dat_Trenovanie.ipynb obsahuje:
   4. Vytvorenie config súboru pre trénovanie
   5. Trénovanie pomocou OpenNMT na základe vytvoreného configu
   6. Súbory tokenizované pomocou SentencePiece je následne nutné desubwordovať (konkrétne target model (SK jazyk), target testovací súbor (SK jazyk) ktorý bude slúžiť ako referencia a prekladový súbor (SK jazyk))
-  7. Evalvácia na základe metrík BLEU a METEOR
+  7. Evalvácia na základe metrík BLEU, METEOR a COMET
 
 Poznámka: v čase prvého uploadu do tohto repozitu som už vykonal 14 rôznych ÚSPEŠNÝCH trénovaní. Prvotné riešenia predtým boli len plné unk tokenov.
 
-porovnanie.xlsx obsahuje informácie ohľadom jednotlivých model resp. ich BLEU a METEOR skóre a nastavenia niektorých hyperparametrov
+porovnanie.xlsx obsahuje informácie ohľadom jednotlivých model resp. ich BLEU, METEOR a COMET skóre a nastavenia niektorých hyperparametrov
